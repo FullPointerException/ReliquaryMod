@@ -1,15 +1,15 @@
 {
-  "name": "Possesed Portrait",
+  "name": "Possessed Portrait",
   "kind": "Villain",
   "expansionIdentifier": "Reliquary",
   "initialCardIdentifiers": [
-    "HydraCharacter"
+    "PossessedPortraitCharacter"
   ],
   "cards": [
     {
-      "identifier": "PossesedPortraitCharacter",
+      "identifier": "PossessedPortraitCharacter",
       "count": 1,
-      "title": "PossesedPortrait",
+      "title": "PossessedPortrait",
       "keywords": [
         "villain"
       ],
@@ -19,16 +19,16 @@
       "character": true,
       "hitpoints": 100,
       "nemesisIdentifiers": [
-        "Reliquary.PossesedPortrait"
+        "Reliquary.PossessedPortrait"
       ],
       "setup": [
-        "At the start of the game, {PossesedPortrait} does nothing."
+        "At the start of the game, {PossessedPortrait} does nothing."
       ],
       "gameplay": [
-        "{PossesedPortrait} does nothing.",
-        "{PossesedPortrait} just sits there."
+        "{PossessedPortrait} does nothing.",
+        "{PossessedPortrait} just sits there."
       ],
-      "advanced": "{PossesedPortrait} does even more nothing",
+      "advanced": "{PossessedPortrait} does even more nothing",
       "icons": [
         "StartOfTurnAction"
       ],
@@ -36,12 +36,12 @@
         "EndOfTurnAction"
       ],
       "challengeTitle": "Extreme Nothing",
-      "challengeText": "{PossesedPortrait} does an unbeivable amount of nothing",
+      "challengeText": "{PossessedPortrait} does an unbeivable amount of nothing",
       "flippedBody": "Portrait of a Lady",
       "flippedGameplay": [
-        "{PossesedPortrait} does nothing, but flipped this time"
+        "{PossessedPortrait} does nothing, but flipped this time"
       ],
-      "flippedAdvanced": "{PossesedPortrait} does even more nothing, but flipped this time",
+      "flippedAdvanced": "{PossessedPortrait} does even more nothing, but flipped this time",
       "flippedIcons": [
         "EndOfTurnAction"
       ],
@@ -54,7 +54,7 @@
       }
     },
     {
-      "identifier": "PossesedPortraitNoOp",
+      "identifier": "PossessedPortraitNoOp",
       "count": 25,
       "title": "Nothing Happens",
       "keywords": [
@@ -64,7 +64,7 @@
       ],
       "body": "... nothing happened ...",
       "flavorQuotes": {
-        "identifier": "PossesedPortrait",
+        "identifier": "PossessedPortrait",
         "text": "TODO"
       },
       "flavorReference": "TODO #0"

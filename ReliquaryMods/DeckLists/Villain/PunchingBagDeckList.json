@@ -17,7 +17,7 @@
       "backgroundColor": "AAAAAA",
       "foilBackgroundColor": "AAAAAA",
       "character": true,
-      "hitpoints": 100,
+      "hitpoints": 1000,
       "nemesisIdentifiers": [
         "Reliquary.PunchingBag"
       ],

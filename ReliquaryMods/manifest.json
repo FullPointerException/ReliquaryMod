@@ -6,7 +6,7 @@
   ],
   "version": "v0.0.1",
   "color": "b0c4de",
-  "publishedFileId": 000000,
+  "publishedFileId": 0,
   "credits": [
     "<b>Card Design:</b> FullPointerException",
     "<b>Software Development:</b> FullPointerException",
@@ -23,7 +23,7 @@
     ],
     "villains": [
       "Hydra",
-      "PossessedPortait",
+      "PossessedPortrait",
       "PunchingBag",
       "TheWanderer",
       "TrialsOfHeracles"

@@ -21,7 +21,7 @@
       "icons": [
         "HasPower"
       ],
-      "hitpoints": 25,
+      "hitpoints": 100,
       "nemesisIdentifiers": [
         "Reliquary.Mannequin"
       ],
