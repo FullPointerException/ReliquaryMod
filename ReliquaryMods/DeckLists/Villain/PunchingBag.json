@@ -1,0 +1,73 @@
+{
+  "name": "PunchingBag",
+  "kind": "Villain",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "PunchingBagCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "PunchingBagCharacter",
+      "count": 1,
+      "title": "PunchingBag",
+      "keywords": [
+        "villain"
+      ],
+      "body": "Front Side",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "character": true,
+      "hitpoints": 100,
+      "nemesisIdentifiers": [
+        "Reliquary.PunchingBag"
+      ],
+      "setup": [
+        "At the start of the game, {PunchingBag} does nothing."
+      ],
+      "gameplay": [
+        "{PunchingBag} does nothing.",
+        "{PunchingBag} just sits there."
+      ],
+      "advanced": "{PunchingBag} does even more nothing",
+      "icons": [
+        "StartOfTurnAction"
+      ],
+      "advancedIcons": [
+        "EndOfTurnAction"
+      ],
+      "challengeTitle": "Extreme Nothing",
+      "challengeText": "{PunchingBag} does an unbeivable amount of nothing",
+      "flippedBody": "Back Side",
+      "flippedGameplay": [
+        "{PunchingBag} does nothing, but flipped this time"
+      ],
+      "flippedAdvanced": "{PunchingBag} does even more nothing, but flipped this time",
+      "flippedIcons": [
+        "EndOfTurnAction"
+      ],
+      "flippedAdvancedIcons": [
+        "StartOfTurnAction"
+      ],
+      "difficulty": 1,
+      "openingLines": {
+        "default": "TODO"
+      }
+    },
+    {
+      "identifier": "PunchingBagNoOp",
+      "count": 25,
+      "title": "Nothing Happens",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+      ],
+      "body": "... nothing happened ...",
+      "flavorQuotes": {
+        "identifier": "PunchingBag",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #0"
+    }
+  ]
+}

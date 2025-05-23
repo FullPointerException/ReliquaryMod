@@ -1,0 +1,73 @@
+{
+  "name": "TrialOfHeracles",
+  "kind": "Villain",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "TrialOfHeraclesCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "TrialOfHeraclesCharacter",
+      "count": 1,
+      "title": "TrialOfHeracles",
+      "keywords": [
+        "villain"
+      ],
+      "body": "Trials",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "character": true,
+      "hitpoints": 100,
+      "nemesisIdentifiers": [
+        "Reliquary.TrialOfHeracles"
+      ],
+      "setup": [
+        "At the start of the game, {TrialOfHeracles} does nothing."
+      ],
+      "gameplay": [
+        "{TrialOfHeracles} does nothing.",
+        "{TrialOfHeracles} just sits there."
+      ],
+      "advanced": "{TrialOfHeracles} does even more nothing",
+      "icons": [
+        "StartOfTurnAction"
+      ],
+      "advancedIcons": [
+        "EndOfTurnAction"
+      ],
+      "challengeTitle": "Extreme Nothing",
+      "challengeText": "{TrialOfHeracles} does an unbeivable amount of nothing",
+      "flippedBody": "The source",
+      "flippedGameplay": [
+        "{TrialOfHeracles} does nothing, but flipped this time"
+      ],
+      "flippedAdvanced": "{TrialOfHeracles} does even more nothing, but flipped this time",
+      "flippedIcons": [
+        "EndOfTurnAction"
+      ],
+      "flippedAdvancedIcons": [
+        "StartOfTurnAction"
+      ],
+      "difficulty": 1,
+      "openingLines": {
+        "default": "TODO"
+      }
+    },
+    {
+      "identifier": "TrialOfHeraclesNoOp",
+      "count": 25,
+      "title": "Nothing Happens",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+      ],
+      "body": "... nothing happened ...",
+      "flavorQuotes": {
+        "identifier": "TrialOfHeracles",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #0"
+    }
+  ]
+}

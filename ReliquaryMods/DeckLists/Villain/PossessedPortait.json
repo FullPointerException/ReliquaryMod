@@ -1,0 +1,73 @@
+{
+  "name": "Possesed Portrait",
+  "kind": "Villain",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "HydraCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "PossesedPortraitCharacter",
+      "count": 1,
+      "title": "PossesedPortrait",
+      "keywords": [
+        "villain"
+      ],
+      "body": "Evil Spectre",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "character": true,
+      "hitpoints": 100,
+      "nemesisIdentifiers": [
+        "Reliquary.PossesedPortrait"
+      ],
+      "setup": [
+        "At the start of the game, {PossesedPortrait} does nothing."
+      ],
+      "gameplay": [
+        "{PossesedPortrait} does nothing.",
+        "{PossesedPortrait} just sits there."
+      ],
+      "advanced": "{PossesedPortrait} does even more nothing",
+      "icons": [
+        "StartOfTurnAction"
+      ],
+      "advancedIcons": [
+        "EndOfTurnAction"
+      ],
+      "challengeTitle": "Extreme Nothing",
+      "challengeText": "{PossesedPortrait} does an unbeivable amount of nothing",
+      "flippedBody": "Portrait of a Lady",
+      "flippedGameplay": [
+        "{PossesedPortrait} does nothing, but flipped this time"
+      ],
+      "flippedAdvanced": "{PossesedPortrait} does even more nothing, but flipped this time",
+      "flippedIcons": [
+        "EndOfTurnAction"
+      ],
+      "flippedAdvancedIcons": [
+        "StartOfTurnAction"
+      ],
+      "difficulty": 1,
+      "openingLines": {
+        "default": "TODO"
+      }
+    },
+    {
+      "identifier": "PossesedPortraitNoOp",
+      "count": 25,
+      "title": "Nothing Happens",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+      ],
+      "body": "... nothing happened ...",
+      "flavorQuotes": {
+        "identifier": "PossesedPortrait",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #0"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Mannequin",
+  "kind": "Hero",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "MannequinCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "MannequinCharacter",
+      "count": 1,
+      "title": "Mannequin",
+      "body": "Lifeless Doll",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "hitpointColor": "333333",
+      "character": true,
+      "powers": [
+        "Nothing happens"
+      ],
+      "icons": [
+        "HasPower"
+      ],
+      "hitpoints": 25,
+      "nemesisIdentifiers": [
+        "Reliquary.Mannequin"
+      ],
+      "incapacitatedAbilities": [
+        "Nothing happens",
+        "... Still nothing ...",
+        "... Nope, nothing"
+      ],
+      "flippedIcons": [
+        "HasPower"
+      ],
+      "openingLines": {
+        "default": "Placeholder Text!"
+      },
+      "complexity": 1
+    },
+    {
+      "identifier": "MannequinNoOp",
+      "count": 40,
+      "title": "Nothing Happens",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+      ],
+      "body": "... nothing happened ...",
+      "flavorQuotes": {
+        "identifier": "Mannequin",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #0"
+    }
+  ]
+}

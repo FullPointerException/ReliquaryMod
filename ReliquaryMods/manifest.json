@@ -1,0 +1,37 @@
+{
+  "title": "Reliquary Comics",
+  "author": "FullPointerException",
+  "description": [
+    "Reliquary Comics is a fan-made expansion created by FullPointerException."
+  ],
+  "version": "v0.0.1",
+  "color": "b0c4de",
+  "publishedFileId": 000000,
+  "credits": [
+    "<b>Card Design:</b> FullPointerException",
+    "<b>Software Development:</b> FullPointerException",
+    "",
+    "Additional thanks to the Cauldron fan expansion: github.com/SotMSteamMods/CauldronMods"
+  ],
+  "namespace": "Reliquary",
+  "dll": "ReliquaryMods.dll",
+  "decks": {
+    "heroes": [
+      "Curator",
+      "Mannequin",
+      "KyleTheCultist"
+    ],
+    "villains": [
+      "Hydra",
+      "PossessedPortait",
+      "PunchingBag",
+      "TheWanderer",
+      "TrialsOfHeracles"
+    ],
+    "environments": [
+      "ForbiddenWing",
+      "HauntedArchive",
+      "OperaHouse"
+    ]
+  }
+}
