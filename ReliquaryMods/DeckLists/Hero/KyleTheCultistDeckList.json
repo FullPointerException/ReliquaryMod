@@ -1,0 +1,58 @@
+{
+  "name": "Kyle The Cultist",
+  "kind": "Hero",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "KyleTheCultistCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "KyleTheCultistCharacter",
+      "count": 1,
+      "title": "Kyle The Cultist",
+      "body": "Guy in a robe",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "hitpointColor": "333333",
+      "character": true,
+      "powers": [
+        "Nothing happens"
+      ],
+      "icons": [
+        "HasPower"
+      ],
+      "hitpoints": 25,
+      "nemesisIdentifiers": [
+        "Reliquary.KyleTheCultist"
+      ],
+      "incapacitatedAbilities": [
+        "Nothing happens",
+        "... Still nothing ...",
+        "... Nope, nothing"
+      ],
+      "flippedIcons": [
+        "HasPower"
+      ],
+      "openingLines": {
+        "default": "Placeholder Text!"
+      },
+      "complexity": 1
+    },
+    {
+      "identifier": "KyleTheCultistNoOp",
+      "count": 40,
+      "title": "Nothing Happens",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+      ],
+      "body": "... nothing happened ...",
+      "flavorQuotes": {
+        "identifier": "KyleTheCultist",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #0"
+    }
+  ]
+}

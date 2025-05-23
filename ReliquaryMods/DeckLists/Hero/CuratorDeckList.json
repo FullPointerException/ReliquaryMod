@@ -1,0 +1,58 @@
+{
+  "name": "Curator",
+  "kind": "Hero",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "CuratorCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "CuratorCharacter",
+      "count": 1,
+      "title": "Curator",
+      "body": "Retrieval Specialist",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "hitpointColor": "333333",
+      "character": true,
+      "powers": [
+        "Nothing happens"
+      ],
+      "icons": [
+        "HasPower"
+      ],
+      "hitpoints": 25,
+      "nemesisIdentifiers": [
+        "Reliquary.Curator"
+      ],
+      "incapacitatedAbilities": [
+        "Nothing happens",
+        "... Still nothing ...",
+        "... Nope, nothing"
+      ],
+      "flippedIcons": [
+        "HasPower"
+      ],
+      "openingLines": {
+        "default": "Placeholder Text!"
+      },
+      "complexity": 1
+    },
+    {
+      "identifier": "CuratorNoOp",
+      "count": 40,
+      "title": "Nothing Happens",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+      ],
+      "body": "... nothing happened ...",
+      "flavorQuotes": {
+        "identifier": "Curator",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #0"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Hydra",
+  "kind": "Villain",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "HydraCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "HydraCharacter",
+      "count": 1,
+      "title": "Hydra",
+      "keywords": [
+        "villain"
+      ],
+      "body": "Multi-headed monster",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "character": true,
+      "hitpoints": 100,
+      "nemesisIdentifiers": [
+        "Reliquary.Hydra"
+      ],
+      "setup": [
+        "At the start of the game, {Hydra} does nothing."
+      ],
+      "gameplay": [
+        "{Hydra} does nothing.",
+        "{Hydra} just sits there."
+      ],
+      "advanced": "{Hydra} does even more nothing",
+      "icons": [
+        "StartOfTurnAction"
+      ],
+      "advancedIcons": [
+        "EndOfTurnAction"
+      ],
+      "challengeTitle": "Extreme Nothing",
+      "challengeText": "{Hydra} does an unbeivable amount of nothing",
+      "flippedBody": "Sea of Heads",
+      "flippedGameplay": [
+        "{Hydra} does nothing, but flipped this time"
+      ],
+      "flippedAdvanced": "{Hydra} does even more nothing, but flipped this time",
+      "flippedIcons": [
+        "EndOfTurnAction"
+      ],
+      "flippedAdvancedIcons": [
+        "StartOfTurnAction"
+      ],
+      "difficulty": 1,
+      "openingLines": {
+        "default": "TODO"
+      }
+    },
+    {
+      "identifier": "HydraNoOp",
+      "count": 25,
+      "title": "Nothing Happens",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+      ],
+      "body": "... nothing happened ...",
+      "flavorQuotes": {
+        "identifier": "Hydra",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #0"
+    }
+  ]
+}

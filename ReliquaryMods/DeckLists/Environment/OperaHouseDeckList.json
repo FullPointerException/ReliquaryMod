@@ -1,0 +1,21 @@
+{
+  "name": "Opera House",
+  "kind": "Environment",
+  "expansionIdentifier": "Reliquary",
+  "backgroundColor": "AAAAAA",
+  "difficulty": 1,
+  "cards": [
+    {
+      "identifier": "OperaHouseNoOp",
+      "count": 15,
+      "title": "Nothing Happens",
+      "icons": [
+        "EndOfTurnAction"
+      ],
+      "body": [
+        "At the end of the environment turn, destroy this card."
+      ],
+      "flavorText": "... nothing happened ..."
+    }
+  ]
+}

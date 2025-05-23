@@ -1,0 +1,1 @@
+In ReliquaryMods/manifest.json, update publishedFileId

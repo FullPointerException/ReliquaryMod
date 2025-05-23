@@ -1,0 +1,73 @@
+{
+  "name": "TheWanderer",
+  "kind": "Villain",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "TheWandererCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "TheWandererCharacter",
+      "count": 1,
+      "title": "TheWanderer",
+      "keywords": [
+        "villain"
+      ],
+      "body": "Warded master",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "character": true,
+      "hitpoints": 100,
+      "nemesisIdentifiers": [
+        "Reliquary.TheWanderer"
+      ],
+      "setup": [
+        "At the start of the game, {TheWanderer} does nothing."
+      ],
+      "gameplay": [
+        "{TheWanderer} does nothing.",
+        "{TheWanderer} just sits there."
+      ],
+      "advanced": "{TheWanderer} does even more nothing",
+      "icons": [
+        "StartOfTurnAction"
+      ],
+      "advancedIcons": [
+        "EndOfTurnAction"
+      ],
+      "challengeTitle": "Extreme Nothing",
+      "challengeText": "{TheWanderer} does an unbeivable amount of nothing",
+      "flippedBody": "Berserk Sorcerer",
+      "flippedGameplay": [
+        "{TheWanderer} does nothing, but flipped this time"
+      ],
+      "flippedAdvanced": "{TheWanderer} does even more nothing, but flipped this time",
+      "flippedIcons": [
+        "EndOfTurnAction"
+      ],
+      "flippedAdvancedIcons": [
+        "StartOfTurnAction"
+      ],
+      "difficulty": 1,
+      "openingLines": {
+        "default": "TODO"
+      }
+    },
+    {
+      "identifier": "TheWandererNoOp",
+      "count": 25,
+      "title": "Nothing Happens",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+      ],
+      "body": "... nothing happened ...",
+      "flavorQuotes": {
+        "identifier": "TheWanderer",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #0"
+    }
+  ]
+}
