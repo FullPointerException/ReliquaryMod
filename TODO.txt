@@ -1,1 +1,25 @@
 In ReliquaryMods/manifest.json, update publishedFileId
+
+Curator
+ - At least 10 ongoings, equipment, one-shot
+ - Power: Name one-shot, equipment, ongoing. Reveal top of deck. If correct, you may play. Otherwise draw.
+ - One-shot: Shuffle all relics into their decks. Deal X damage to all villain targets. Put all environment relics in discard into play. Put all villain relics in discard into play.
+ - One-shot: Look at the top and bottom card of each deck. You may swap them.
+ - One-shot: Each hero searches their deck for a card to put on top
+ - One-shot: Suffle relic from play to deck. If you do, return relic from trash to play. You may use a power on it.
+ - One-shot: Each player draws a card. Look at the top card of the villain deck. You may discard it.
+ - One-shot: Play a card. Use a power. Draw a card.
+ - Relic: Longinus. Power: damage?. When villain card played, destroy this to skip the play and put it in discard pile.
+ - Relic: Perseus Shield. Power: Until start of next turn, reduce damage dealt to curator by 1. When damaged, destroy this do redirect to source.
+ - Relic: Midas's Coin
+ - Relic: The Silver Bullet.
+ - Relic: Pecos Bill's Saddle
+ - Relic:
+ - Relic:
+ - Relic:
+ - Relic:
+ - Relic:
+ - Ongoing: When curator delt damage, sacrifice this to heal all hero targets by that much.
+ - Ongoing: Power -> Deal target 1 damage. Reduce damage dealt by target by 1 until start of your turn.
+ - Ongoing: When a relic enters, each hero heals 1 HP. When relic uses power, each hero heals 1 HP.
+ - Ongoing:
