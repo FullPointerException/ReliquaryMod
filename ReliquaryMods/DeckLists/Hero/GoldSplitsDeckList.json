@@ -40,7 +40,7 @@
     },
     {
       "identifier": "MomentumTackle",
-      "count": 38,
+      "count": 3,
       "title": "Momentum Tackle",
       "keywords": [
         "one-shot"
@@ -57,16 +57,16 @@
     },
     {
       "identifier": "SonicBoom",
-      "count": 2,
+      "count": 3,
       "title": "Sonic Boom",
       "keywords": [
-        "ongoing",
-        "limited"
+        "one-shot"
       ],
       "icons": [
+        "Discard",
         "DealDamageSonic"
       ],
-      "body": "Whenever you discard a card, {GoldSplits} deals 1 target 1 sonic damage.",
+      "body": "Discard your hand. {GoldSplits} deals X sonic damage to up to X targets, where X is the number of cards you have discarded this turn.",
       "flavorQuotes": {
         "identifier": "GoldSplits",
         "text": "TODO"

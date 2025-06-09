@@ -6,14 +6,10 @@ using System.Linq;
 
 namespace Reliquary.GoldSplits
 {
-    public class MomentumTackleCardController : CardController
+    public class MomentumTackleCardController : MomentumCardController
     {
         public MomentumTackleCardController(Card card, TurnTakerController turnTakerController) : base(card, turnTakerController)
         {
-            Func<string> output = () => { 
-                return CardsDiscardedThisTurn() + " cards have been discarded this turn."; 
-            };
-            SpecialStringMaker.ShowSpecialString(output);
         }
 
         public override IEnumerator Play()
@@ -28,11 +24,6 @@ namespace Reliquary.GoldSplits
             {
                 GameController.ExhaustCoroutine(coroutine);
             }
-        }
-
-        private int CardsDiscardedThisTurn()
-        {
-            return this.Journal.DiscardCardEntriesThisTurn().Where(dce => dce.FromLocation == HeroTurnTaker.Hand).Count();
         }
     }
 }

@@ -3,26 +3,37 @@ using Handelabra.Sentinels.Engine.Model;
 using System.Collections;
 using System;
 using System.Linq;
+using System.Security.Cryptography;
 
 namespace Reliquary.GoldSplits
 {
-    public class SonicBoomCardController : CardController
+    public class SonicBoomCardController : MomentumCardController
     {
         public SonicBoomCardController(Card card, TurnTakerController turnTakerController) : base(card, turnTakerController)
         {
+            Func<string> output = () => {
+                return HeroTurnTakerController.NumberOfCardsInHand + " cards in hand.";
+            };
+            SpecialStringMaker.ShowSpecialString(output);
         }
 
-        public override void AddTriggers()
+        public override IEnumerator Play()
         {
-            // "Whenever you discard a card, ..."
-            AddTrigger<DiscardCardAction>(d => d.WasCardDiscarded && d.Origin == HeroTurnTaker.Hand, DealDamageResponse, TriggerType.DealDamage, TriggerTiming.After);
-        }
+            // "Discard your hand. ..."
+            IEnumerator coroutine = GameController.DiscardHand(HeroTurnTakerController, optional: false, storedResults: null, TurnTaker, GetCardSource());
+            if (UseUnityCoroutines)
+            {
+                yield return GameController.StartCoroutine(coroutine);
+            }
+            else
+            {
+                GameController.ExhaustCoroutine(coroutine);
+            }
 
-        private IEnumerator DealDamageResponse(DiscardCardAction dca)
-        {
-            // "... {GoldSplits} deals 1 target 1 sonic damage."
-            IEnumerator coroutine = GameController.SelectTargetsAndDealDamage(
-                DecisionMaker, new DamageSource(GameController, CharacterCard), amount: 1, DamageType.Sonic, numberOfTargets: 1, optional: false, requiredTargets: 1, cardSource: GetCardSource());
+            // "... {GoldSplits} deals X sonic damage to up to X targets, where X is the number of cards you have discarded this turn."
+            int x = CardsDiscardedThisTurn();
+            coroutine = GameController.SelectTargetsAndDealDamage(
+                DecisionMaker, new DamageSource(GameController, CharacterCard), amount: x, DamageType.Sonic, numberOfTargets: x, optional: false, requiredTargets: 0, cardSource: GetCardSource());
             if (UseUnityCoroutines)
             {
                 yield return GameController.StartCoroutine(coroutine);
