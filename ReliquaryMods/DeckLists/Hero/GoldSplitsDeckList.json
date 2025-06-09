@@ -39,23 +39,6 @@
       "complexity": 3
     },
     {
-      "identifier": "MomentumTackle",
-      "count": 3,
-      "title": "Momentum Tackle",
-      "keywords": [
-        "one-shot"
-      ],
-      "icons": [
-        "DealDamageMelee"
-      ],
-      "body": "{GoldSplits} deals 1 target X melee damage, where X is 1 + the number of cards you have discarded this turn.",
-      "flavorQuotes": {
-        "identifier": "GoldSplits",
-        "text": "TODO"
-      },
-      "flavorReference": "TODO #1"
-    },
-    {
       "identifier": "SonicBoom",
       "count": 3,
       "title": "Sonic Boom",
@@ -72,6 +55,23 @@
         "text": "TODO"
       },
       "flavorReference": "TODO #1"
+    },
+    {
+      "identifier": "RunningStart",
+      "count": 3,
+      "title": "Running Start",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+        "DrawCardNow"
+      ],
+      "body": "Draw cards until you have at least 5 cards in your hand.",
+      "flavorQuotes": {
+        "identifier": "GoldSplits",
+        "text": "I'm not retreating. I'm running at him the long way around."
+      },
+      "flavorReference": "100% Glitchless #5"
     }
   ]
 }
