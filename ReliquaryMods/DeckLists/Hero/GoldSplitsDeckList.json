@@ -1,0 +1,77 @@
+{
+  "name": "GoldSplits",
+  "kind": "Hero",
+  "expansionIdentifier": "Reliquary",
+  "initialCardIdentifiers": [
+    "GoldSplitsCharacter"
+  ],
+  "cards": [
+    {
+      "identifier": "GoldSplitsCharacter",
+      "count": 1,
+      "title": "Gold Splits",
+      "body": "Speed Runner",
+      "backgroundColor": "AAAAAA",
+      "foilBackgroundColor": "AAAAAA",
+      "hitpointColor": "333333",
+      "character": true,
+      "powers": [
+        "Draw a card. Discard a card."
+      ],
+      "icons": [
+        "DrawCard",
+        "DiscardCard"
+      ],
+      "hitpoints": 22,
+      "nemesisIdentifiers": [
+        "Reliquary.GoldSprints"
+      ],
+      "incapacitatedAbilities": [
+        "TODO",
+        "TODO",
+        "TODO"
+      ],
+      "flippedIcons": [
+      ],
+      "openingLines": {
+        "defualt": "Placeholder Text!"
+      },
+      "complexity": 3
+    },
+    {
+      "identifier": "MomentumTackle",
+      "count": 38,
+      "title": "Momentum Tackle",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+        "DealDamageMelee"
+      ],
+      "body": "{GoldSplits} deals 1 target X melee damage, where X is 1 + the number of cards you have discarded this turn.",
+      "flavorQuotes": {
+        "identifier": "GoldSplits",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #1"
+    },
+    {
+      "identifier": "SonicBoom",
+      "count": 2,
+      "title": "Sonic Boom",
+      "keywords": [
+        "ongoing",
+        "limited"
+      ],
+      "icons": [
+        "DealDamageSonic"
+      ],
+      "body": "Whenever you discard a card, {GoldSplits} deals 1 target 1 sonic damage.",
+      "flavorQuotes": {
+        "identifier": "GoldSplits",
+        "text": "TODO"
+      },
+      "flavorReference": "TODO #1"
+    }
+  ]
+}
