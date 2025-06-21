@@ -1,5 +1,5 @@
 {
-  "name": "GoldSplits",
+  "name": "Gold Splits",
   "kind": "Hero",
   "expansionIdentifier": "Reliquary",
   "initialCardIdentifiers": [
@@ -50,10 +50,12 @@
         "DealDamageSonic"
       ],
       "body": "Discard your hand. {GoldSplits} deals X sonic damage to up to X targets, where X is the number of cards you have discarded this turn.",
-      "flavorQuotes": {
-        "identifier": "GoldSplits",
-        "text": "TODO"
-      },
+      "flavorQuotes": [
+        {
+          "identifier": "GoldSplits",
+          "text": "TODO"
+        }
+      ],
       "flavorReference": "TODO #1"
     },
     {
@@ -67,11 +69,36 @@
         "DrawCardNow"
       ],
       "body": "Draw cards until you have at least 5 cards in your hand.",
-      "flavorQuotes": {
-        "identifier": "GoldSplits",
-        "text": "I'm not retreating. I'm running at him the long way around."
-      },
-      "flavorReference": "100% Glitchless #5"
+      "flavorQuotes": [
+        {
+          "identifier": "Gold Splits",
+          "text": "I'm not retreating. I'm running at him the long way around."
+        }
+      ],
+      "flavorReference": "100 Percent Glitchless #5"
+    },
+    {
+      "identifier": "FrictionScorch",
+      "count": 3,
+      "title": "Friction Scorch",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+        "DestroyEnvironment",
+        "DealDamageFire"
+      ],
+      "body": [
+        "{GoldSplits} deals 1 target 3 fire damage.",
+        "Whenever you discard this card, you may have {GoldSplits} deal 1 target X fire damage, where X is the number of cards you have discarded this turn."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "GoldSplits",
+          "text": "Placehodler Text!"
+        }
+      ],
+      "flavorReference": "TODO #0"
     }
   ]
 }

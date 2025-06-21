@@ -31,6 +31,7 @@ namespace Reliquary.GoldSplits
             }
 
             // "... {GoldSplits} deals X sonic damage to up to X targets, where X is the number of cards you have discarded this turn."
+            // TODO figure out a way to let the player choose an order
             int x = CardsDiscardedThisTurn();
             coroutine = GameController.SelectTargetsAndDealDamage(
                 DecisionMaker, new DamageSource(GameController, CharacterCard), amount: x, DamageType.Sonic, numberOfTargets: x, optional: false, requiredTargets: 0, cardSource: GetCardSource());
