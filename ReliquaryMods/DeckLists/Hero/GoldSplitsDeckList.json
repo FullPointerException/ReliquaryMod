@@ -85,12 +85,33 @@
         "one-shot"
       ],
       "icons": [
-        "DestroyEnvironment",
         "DealDamageFire"
       ],
       "body": [
         "{GoldSplits} deals 1 target 3 fire damage.",
         "Whenever you discard this card, you may have {GoldSplits} deal 1 target X fire damage, where X is the number of cards you have discarded this turn."
+      ],
+      "flavorQuotes": [
+        {
+          "identifier": "GoldSplits",
+          "text": "Placehodler Text!"
+        }
+      ],
+      "flavorReference": "TODO #0"
+    },
+    {
+      "identifier": "StaticDischarge",
+      "count": 3,
+      "title": "Static Discharge",
+      "keywords": [
+        "one-shot"
+      ],
+      "icons": [
+        "DealDamageLightning"
+      ],
+      "body": [
+        "{GoldSplits} deals all non-hero targets 1 lightning damage.",
+        "Whenever you discard this card, you may have {GoldSplits} deal up to X targets 1 lightning damage, where X is the number of cards you have discarded this turn."
       ],
       "flavorQuotes": [
         {
